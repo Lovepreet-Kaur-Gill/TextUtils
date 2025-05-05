@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './summary.css';
 
 export default function About(props) {
   return (
