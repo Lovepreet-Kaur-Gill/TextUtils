@@ -8,7 +8,7 @@ const TextReverse = ({ text, setText }) => {
 
   return (
     <div>
-    <button className="btn btn-custom-primary mx-2 btn-tall " onClick={handleReverse}>
+    <button className="btn btn-custom-primary mx-2 btn-tall my-1" onClick={handleReverse}>
       Reverse Text
     </button>
     </div>

@@ -52,10 +52,10 @@ export default function TextForm(props) {
             <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor:props.mode==='dark'?'grey':'white', color:props.mode==='dark'?'white':'black'}} id="myBox" rows="8"></textarea>
         </div>
         <div className="d-flex flex-wrap my-2">
-        <button className="btn btn-custom-primary btn-tall " onClick={handleUpClick}>Convert to UpperCase</button>     
-        <button className="btn btn-custom-secondary btn-tall mx-3" onClick={handleLowerCase}>Convert to Lowercase</button>
-        <button className="btn btn-custom-danger mx-1 btn-tall " onClick={handleClearText}>Clear Text</button>
-        <button className="btn btn-custom-primary btn-tall " onClick={handleCopy}>Copy Text</button>     
+        <button className="btn btn-custom-primary  mx-2 my-1 " onClick={handleUpClick}>Convert to UpperCase</button>     
+        <button className="btn btn-custom-secondary mx-2 my-1" onClick={handleLowerCase}>Convert to Lowercase</button>
+        <button className="btn btn-custom-danger mx-2 my-1 " onClick={handleClearText}>Clear Text</button>
+        <button className="btn btn-custom-primary mx-2 my-1 " onClick={handleCopy}>Copy Text</button>     
         
         
         <TextReverse text={text} setText={setText} />

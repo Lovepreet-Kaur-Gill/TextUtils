@@ -26,10 +26,10 @@ const TextToSpeech = ({ text }) => {
 
   return (
    <>
-      <button className="btn btn-custom-primary shift" onClick={handleSpeak} disabled={isSpeaking}>
+      <button className="btn btn-custom-primary shift mx-2 my-1" onClick={handleSpeak} disabled={isSpeaking}>
         {isSpeaking ? "Speaking..." : "Speak Text"}
       </button>
-      <button className="btn btn-custom-danger mx-2" onClick={handleStop} disabled={!isSpeaking}>
+      <button className="btn btn-custom-danger mx-2 my-1" onClick={handleStop} disabled={!isSpeaking}>
         Stop Speaking
       </button>
     </>
