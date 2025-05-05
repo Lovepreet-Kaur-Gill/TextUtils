@@ -1,0 +1,33 @@
+/* *{
+    background-color: #BDDDE4;
+    color: white;
+} */
+
+.btn-custom-primary {
+    background-color: #9FB3DF; /* Dark blue */
+    color: white;
+}
+
+.btn-custom-secondary {
+    background-color: #9FB3DF; /* Custom orange */
+    color: white;
+}
+
+.btn-custom-danger {
+    background-color: #9FB3DF; /* Custom red */
+    color: white;
+}
+
+.btn-custom-primary:hover,
+.btn-custom-secondary:hover,
+.btn-custom-danger:hover {
+    opacity: 0.85;
+}
+
+.btn-tall {
+    height: 40px;
+  }
+
+.shift{
+    margin-left: 330px;
+}
