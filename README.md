@@ -94,7 +94,7 @@ TextUtils/
 ## 🌐 Live Demo
 
 You can try the live version of this app here:
-👉 [Live on GitHub Pages](https://your-username.github.io/TextUtils)
+👉 [Live on GitHub Pages](https://Lovepreet-Kaur-Gill.github.io/TextUtils)
 
 *(Replace the above link with your actual deployed link once you deploy it)*
 
@@ -114,11 +114,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 💡 Author
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by [Lovepreet Kaur](https://github.com/Lovepreet-Kaur-Gill)
 
-```
 
----
-
-Let me know if you want help customizing any section, or if you're ready to deploy this live on GitHub Pages.
-```
