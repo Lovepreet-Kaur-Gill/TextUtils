@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert.js';
 import About from './components/About.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [mode, setMode] = useState('light');

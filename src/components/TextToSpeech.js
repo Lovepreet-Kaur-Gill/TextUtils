@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import Style from './button.css';
+import './button.css'; // Assuming this is CSS and not a module
 
 const TextToSpeech = ({ text }) => {
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const handleSpeak = () => {
-    if (text === "") {
-      alert("Please enter some text first!");
-      return;
-    }
+    if (text.trim() === "") return;
 
     const speech = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(speech);
@@ -25,11 +22,19 @@ const TextToSpeech = ({ text }) => {
   };
 
   return (
-   <>
-      <button className="btn btn-custom-primary shift mx-2 my-1" onClick={handleSpeak} disabled={isSpeaking}>
+    <>
+      <button
+        className="btn btn-custom-primary shift mx-2 my-1"
+        onClick={handleSpeak}
+        disabled={isSpeaking || text.trim() === ""}
+      >
         {isSpeaking ? "Speaking..." : "Speak Text"}
       </button>
-      <button className="btn btn-custom-danger mx-2 my-1" onClick={handleStop} disabled={!isSpeaking}>
+      <button
+        className="btn btn-custom-danger mx-2 my-1"
+        onClick={handleStop}
+        disabled={!isSpeaking}
+      >
         Stop Speaking
       </button>
     </>
